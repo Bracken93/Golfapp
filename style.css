@@ -1,0 +1,171 @@
+/*
+
+#elementbyid
+.elementbyclass
+
+*/
+
+body {
+	font-family: arial;
+	color: #000;
+	font-size: 15px;
+	background: #eee;
+	margin: 0px;
+}
+
+
+.container {
+	width: 80%;
+	height: auto;
+	margin: 0px auto;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+/*---------- type ----------*/
+/*---------- type ----------*/
+
+h1 {
+	height: 30px;
+	margin: 0px;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: capitalize;
+}
+
+h3 {
+	height: 20px;
+	margin: 0px auto 10px auto;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: #000;
+}
+
+a.button {
+	display: inline-block;
+	padding: 20px 40px;
+	background: #333;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 3px;
+}
+
+a.button:hover {
+	background: #000;
+}
+
+.heavy {
+	font-weight: 900;
+}
+
+/*---------- type ----------*/
+/*---------- type ----------*/
+
+/*---------- nav ----------*/
+/*---------- nav ----------*/
+
+.nav-wrapper {
+	width: 100%;
+    background: #fff;
+    overflow: auto;
+    margin: 0px;
+}
+
+ul.nav-left {
+	float: left;
+	overflow: auto;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+ul.nav-right {
+	float: right;
+	overflow: auto;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+ul.nav-left li, ul.nav-right li {
+	float: left;
+	display: block;
+	padding: 20px;
+}
+
+.home-link {
+	font-weight: 900;
+}
+
+/*---------- nav ----------*/
+/*---------- nav ----------*/
+
+/*---------- member card ----------*/
+/*---------- member card ----------*/
+
+.member-card-wrapper {
+	width: 100%;
+	background: #fff;
+	padding: 40px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+
+.member-card-header {
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+.member-card-content {
+	margin: 40px auto;
+	overflow: auto;
+}
+
+img.profile-pic {
+	display: block;
+	float: left;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+h1.username {
+	float: left;
+	height: 60px;
+	line-height: 60px;
+}
+
+/*---------- member card ----------*/
+/*---------- member card ----------*/
+
+/*---------- register form ----------*/
+/*---------- register form ----------*/
+
+.regform {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*---------- register form ----------*/
+/*---------- register form ----------*/
+
+
+/*---------- login form ----------*/
+/*---------- login form ----------*/
+
+.logform{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*---------- login form ----------*/
+/*---------- login form ----------*/
+
+
